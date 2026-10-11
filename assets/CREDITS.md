@@ -2,8 +2,9 @@
 
 ## Fonts (inlined as base64 WOFF2 in every SVG)
 
-- **Space Grotesk** (Bold) — SIL Open Font Licence 1.1
-  https://github.com/floriankarsten/space-grotesk
+- **Anton** (Regular) — SIL Open Font Licence 1.1
+  https://github.com/googlefonts/AntonFont
+  (display face; replaced Space Grotesk when the profile was rethemed)
 - **JetBrains Mono** (Medium) — SIL Open Font Licence 1.1
   https://github.com/JetBrains/JetBrainsMono
 
