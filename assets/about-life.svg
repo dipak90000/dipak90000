@@ -4,21 +4,21 @@
   <defs>
   
   <pattern id="a-dots" width="22" height="22" patternUnits="userSpaceOnUse">
-    <circle cx="1.5" cy="1.5" r="1.1" fill="#eef2f9" opacity="0.055"/>
+    <circle cx="1.5" cy="1.5" r="1.1" fill="#f2eefc" opacity="0.055"/>
   </pattern>
   <linearGradient id="a-hair" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%"   stop-color="#247bff"    stop-opacity="0.85"/>
-    <stop offset="45%"  stop-color="#247bff"    stop-opacity="0.12"/>
-    <stop offset="75%"  stop-color="#ff354f" stop-opacity="0.30"/>
-    <stop offset="100%" stop-color="#ff354f" stop-opacity="0.80"/>
+    <stop offset="0%"   stop-color="#7c6cff"    stop-opacity="0.85"/>
+    <stop offset="45%"  stop-color="#7c6cff"    stop-opacity="0.12"/>
+    <stop offset="75%"  stop-color="#ff4ecd" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#ff4ecd" stop-opacity="0.80"/>
   </linearGradient>
   <radialGradient id="a-glowblue" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#247bff" stop-opacity="0.38"/>
-    <stop offset="100%" stop-color="#247bff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#7c6cff" stop-opacity="0.38"/>
+    <stop offset="100%" stop-color="#7c6cff" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="a-glowred" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#ff354f" stop-opacity="0.30"/>
-    <stop offset="100%" stop-color="#ff354f" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#ff4ecd" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#ff4ecd" stop-opacity="0"/>
   </radialGradient>
 
     <clipPath id="a-card"><rect width="1000" height="400" rx="26"/></clipPath>
@@ -65,72 +65,75 @@
     .role { opacity: 0 !important; }
     .role-1 { opacity: 1 !important; }
     .typed-mask { width: 100% !important; }
+    .blk { opacity: 1 !important; transform: none !important; }
+    .ptype { width: 100% !important; }
+    .sheen { opacity: 0 !important; }
   }
 </style>
   <g clip-path="url(#a-card)">
-    <rect width="1000" height="400" fill="#070b16"/>
+    <rect width="1000" height="400" fill="#0a0614"/>
     <ellipse cx="120" cy="30" rx="330" ry="210" fill="url(#a-glowblue)"/>
     <ellipse cx="900" cy="380" rx="300" ry="220" fill="url(#a-glowred)"/>
     <rect class="drift" x="-30" y="-30" width="1070" height="470" fill="url(#a-dots)"/>
 
-    <text class="m fade" x="52" y="58" font-size="12" fill="#ff354f" letter-spacing="3">WHAT I DO</text>
-    <text class="d fade" x="52" y="92" font-size="27" fill="#eef2f9">Capabilities</text>
+    <text class="m fade" x="52" y="58" font-size="12" fill="#ff4ecd" letter-spacing="3">WHAT I DO</text>
+    <text class="d fade" x="52" y="92" font-size="27" fill="#f2eefc">Capabilities</text>
       <g class="fade" style="animation-delay:0.25s">
         <rect x="52" y="109" width="402" height="38" rx="10" fill="#ffffff" fill-opacity="0.035"/>
-        <circle cx="70" cy="128" r="3.4" fill="#247bff"/>
-        <text class="d" x="86" y="127" font-size="15" fill="#eef2f9">Vibe coding</text>
-        <text class="m" x="86" y="141" font-size="10.5" fill="#8b97ad">Full websites and apps, built end to end with AI</text>
+        <circle cx="70" cy="128" r="3.4" fill="#7c6cff"/>
+        <text class="d" x="86" y="127" font-size="15" fill="#f2eefc">Vibe coding</text>
+        <text class="m" x="86" y="141" font-size="10.5" fill="#9a91b8">Full websites and apps, built end to end with AI</text>
       </g>
       <g class="fade" style="animation-delay:0.34s">
         <rect x="52" y="155" width="402" height="38" rx="10" fill="#ffffff" fill-opacity="0.035"/>
-        <circle cx="70" cy="174" r="3.4" fill="#247bff"/>
-        <text class="d" x="86" y="173" font-size="15" fill="#eef2f9">AI toolchain</text>
-        <text class="m" x="86" y="187" font-size="10.5" fill="#8b97ad">ChatGPT · Claude Code · Google AI Studio · Kimi Code</text>
+        <circle cx="70" cy="174" r="3.4" fill="#7c6cff"/>
+        <text class="d" x="86" y="173" font-size="15" fill="#f2eefc">AI toolchain</text>
+        <text class="m" x="86" y="187" font-size="10.5" fill="#9a91b8">ChatGPT · Claude Code · Google AI Studio · Kimi Code</text>
       </g>
       <g class="fade" style="animation-delay:0.43s">
         <rect x="52" y="201" width="402" height="38" rx="10" fill="#ffffff" fill-opacity="0.035"/>
-        <circle cx="70" cy="220" r="3.4" fill="#247bff"/>
-        <text class="d" x="86" y="219" font-size="15" fill="#eef2f9">3D &amp; motion</text>
-        <text class="m" x="86" y="233" font-size="10.5" fill="#8b97ad">GSAP · Framer Motion · React Three Fiber</text>
+        <circle cx="70" cy="220" r="3.4" fill="#7c6cff"/>
+        <text class="d" x="86" y="219" font-size="15" fill="#f2eefc">3D &amp; motion</text>
+        <text class="m" x="86" y="233" font-size="10.5" fill="#9a91b8">GSAP · Framer Motion · React Three Fiber</text>
       </g>
       <g class="fade" style="animation-delay:0.52s">
         <rect x="52" y="247" width="402" height="38" rx="10" fill="#ffffff" fill-opacity="0.035"/>
-        <circle cx="70" cy="266" r="3.4" fill="#247bff"/>
-        <text class="d" x="86" y="265" font-size="15" fill="#eef2f9">AI marketing</text>
-        <text class="m" x="86" y="279" font-size="10.5" fill="#8b97ad">Ads, campaigns and social media</text>
+        <circle cx="70" cy="266" r="3.4" fill="#7c6cff"/>
+        <text class="d" x="86" y="265" font-size="15" fill="#f2eefc">AI marketing</text>
+        <text class="m" x="86" y="279" font-size="10.5" fill="#9a91b8">Ads, campaigns and social media</text>
       </g>
       <g class="fade" style="animation-delay:0.61s">
         <rect x="52" y="293" width="402" height="38" rx="10" fill="#ffffff" fill-opacity="0.035"/>
-        <circle cx="70" cy="312" r="3.4" fill="#247bff"/>
-        <text class="d" x="86" y="311" font-size="15" fill="#eef2f9">Copywriting</text>
-        <text class="m" x="86" y="325" font-size="10.5" fill="#8b97ad">Words that carry the build</text>
+        <circle cx="70" cy="312" r="3.4" fill="#7c6cff"/>
+        <text class="d" x="86" y="311" font-size="15" fill="#f2eefc">Copywriting</text>
+        <text class="m" x="86" y="325" font-size="10.5" fill="#9a91b8">Words that carry the build</text>
       </g>
-    <text class="m fade" x="52" y="364" font-size="10.5" fill="#8b97ad" opacity="0.85">Whatever the requirement — I deliver it, built to spec.</text>
+    <text class="m fade" x="52" y="364" font-size="10.5" fill="#9a91b8" opacity="0.85">Whatever the requirement — I deliver it, built to spec.</text>
 
     <g>
       <rect x="500" y="40" width="452" height="310" rx="20" fill="#ffffff" fill-opacity="0.04" stroke="url(#a-hair)"/>
-      <text class="m" x="726" y="76" font-size="12" fill="#ff354f" letter-spacing="3" text-anchor="middle">OFF THE CLOCK</text>
+      <text class="m" x="726" y="76" font-size="12" fill="#ff4ecd" letter-spacing="3" text-anchor="middle">OFF THE CLOCK</text>
       <g class="slide slide-1" style="animation-delay:0.0s">
-        <g transform="translate(726,150)"><path d="M -22 -8 h 44 a 12 12 0 0 1 12 12 v 6 a 10 10 0 0 1 -18 6 l -4 -4 h -24 l -4 4 a 10 10 0 0 1 -18 -6 v -6 a 12 12 0 0 1 12 -12 z" fill="none" stroke="#247bff" stroke-width="2.4" stroke-linejoin="round"/><path d="M -14 2 h 10 M -9 -3 v 10" stroke="#247bff" stroke-width="2.4" stroke-linecap="round"/><circle cx="10" cy="-1" r="2.6" fill="#ff354f"/><circle cx="17" cy="5" r="2.6" fill="#ff354f"/></g>
-        <text class="d" x="726" y="222" font-size="27" fill="#eef2f9" text-anchor="middle">PC Gaming</text>
-        <text class="m" x="726" y="248" font-size="11.5" fill="#8b97ad" text-anchor="middle">Late-night runs. The reflexes transfer to debugging.</text>
+        <g transform="translate(726,150)"><path d="M -22 -8 h 44 a 12 12 0 0 1 12 12 v 6 a 10 10 0 0 1 -18 6 l -4 -4 h -24 l -4 4 a 10 10 0 0 1 -18 -6 v -6 a 12 12 0 0 1 12 -12 z" fill="none" stroke="#7c6cff" stroke-width="2.4" stroke-linejoin="round"/><path d="M -14 2 h 10 M -9 -3 v 10" stroke="#7c6cff" stroke-width="2.4" stroke-linecap="round"/><circle cx="10" cy="-1" r="2.6" fill="#ff4ecd"/><circle cx="17" cy="5" r="2.6" fill="#ff4ecd"/></g>
+        <text class="d" x="726" y="222" font-size="27" fill="#f2eefc" text-anchor="middle">PC Gaming</text>
+        <text class="m" x="726" y="248" font-size="11.5" fill="#9a91b8" text-anchor="middle">Late-night runs. The reflexes transfer to debugging.</text>
       </g>
       <g class="slide" style="animation-delay:4.0s">
-        <g transform="translate(726,150)"><path d="M -26 4 l 52 -16 a 5 5 0 0 0 -3 -8 l -14 2 l -18 -12 l -7 2 l 11 14 l -13 2 l -7 -6 l -5 2 z" fill="none" stroke="#247bff" stroke-width="2.4" stroke-linejoin="round"/><path d="M -20 14 h 40" stroke="#ff354f" stroke-width="2.4" stroke-linecap="round" opacity="0.8"/></g>
-        <text class="d" x="726" y="222" font-size="27" fill="#eef2f9" text-anchor="middle">Travel</text>
-        <text class="m" x="726" y="248" font-size="11.5" fill="#8b97ad" text-anchor="middle">New cities, new references, new colour palettes.</text>
+        <g transform="translate(726,150)"><path d="M -26 4 l 52 -16 a 5 5 0 0 0 -3 -8 l -14 2 l -18 -12 l -7 2 l 11 14 l -13 2 l -7 -6 l -5 2 z" fill="none" stroke="#7c6cff" stroke-width="2.4" stroke-linejoin="round"/><path d="M -20 14 h 40" stroke="#ff4ecd" stroke-width="2.4" stroke-linecap="round" opacity="0.8"/></g>
+        <text class="d" x="726" y="222" font-size="27" fill="#f2eefc" text-anchor="middle">Travel</text>
+        <text class="m" x="726" y="248" font-size="11.5" fill="#9a91b8" text-anchor="middle">New cities, new references, new colour palettes.</text>
       </g>
       <g class="slide" style="animation-delay:8.0s">
-        <g transform="translate(726,150)"><path d="M -18 16 l 4 -14 l 22 -22 a 6 6 0 0 1 9 9 l -22 22 z" fill="none" stroke="#247bff" stroke-width="2.4" stroke-linejoin="round"/><path d="M -14 2 l 9 9" stroke="#247bff" stroke-width="2.4"/><circle cx="14" cy="-14" r="3" fill="#ff354f"/></g>
-        <text class="d" x="726" y="222" font-size="27" fill="#eef2f9" text-anchor="middle">Design</text>
-        <text class="m" x="726" y="248" font-size="11.5" fill="#8b97ad" text-anchor="middle">Type, grid and motion — redrawn until it feels right.</text>
+        <g transform="translate(726,150)"><path d="M -18 16 l 4 -14 l 22 -22 a 6 6 0 0 1 9 9 l -22 22 z" fill="none" stroke="#7c6cff" stroke-width="2.4" stroke-linejoin="round"/><path d="M -14 2 l 9 9" stroke="#7c6cff" stroke-width="2.4"/><circle cx="14" cy="-14" r="3" fill="#ff4ecd"/></g>
+        <text class="d" x="726" y="222" font-size="27" fill="#f2eefc" text-anchor="middle">Design</text>
+        <text class="m" x="726" y="248" font-size="11.5" fill="#9a91b8" text-anchor="middle">Type, grid and motion — redrawn until it feels right.</text>
       </g>
       <rect x="554" y="308" width="108" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/>
-      <rect class="seg" x="554" y="308" width="108" height="4" rx="2" fill="#247bff" style="animation-delay:0.0s"/>
+      <rect class="seg" x="554" y="308" width="108" height="4" rx="2" fill="#7c6cff" style="animation-delay:0.0s"/>
       <rect x="672" y="308" width="108" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/>
-      <rect class="seg" x="672" y="308" width="108" height="4" rx="2" fill="#247bff" style="animation-delay:4.0s"/>
+      <rect class="seg" x="672" y="308" width="108" height="4" rx="2" fill="#7c6cff" style="animation-delay:4.0s"/>
       <rect x="790" y="308" width="108" height="4" rx="2" fill="#ffffff" fill-opacity="0.12"/>
-      <rect class="seg" x="790" y="308" width="108" height="4" rx="2" fill="#247bff" style="animation-delay:8.0s"/>
+      <rect class="seg" x="790" y="308" width="108" height="4" rx="2" fill="#7c6cff" style="animation-delay:8.0s"/>
     </g>
     <rect x="0.5" y="0.5" width="999" height="399" rx="26" fill="none" stroke="url(#a-hair)" stroke-width="1.5"/>
   </g>
